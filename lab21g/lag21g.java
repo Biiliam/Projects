@@ -19,7 +19,7 @@ public class Lab21g
 			System.out.println("\n\n\n---------------------------------");
 
 		}while(kb.hasNextLine());
-		//17 first solve.
+		
 
 
 
