@@ -14,7 +14,7 @@ public class Maze
 
 	public Maze()
 	{
-		//lol. nooblord
+		//
 
 	}
 	public Maze(int size, String line)
