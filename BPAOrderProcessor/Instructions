@@ -1,0 +1,138 @@
+JAVA PROGRAMMING 
+REGIONAL 2013
+PAGE 1 OF 4 
+CONTESTANT ID# ________________ 
+3 Pages 
+ Time____________ 
+ Rank____________ 
+ 
+ 
+ 
+JAVA PROGRAMMING (45) 
+ 
+ 
+ 
+ 
+ 
+Regional – 2013 
+ 
+START TIME ________________ END TIME ________________ 
+ 
+ 
+TOTAL POINTS ___________ (435) 
+ 
+ 
+ 
+Failure to adhere to any of the following rules will result in disqualification: 
+1. Contestant must hand in this test booklet and all printouts. Failure to do 
+so will result in disqualification. 
+2. No equipment, supplies, or materials other than those specified for this 
+event are allowed in the testing area. No previous BPA tests and/or 
+sample tests or facsimile (handwritten, photocopied, or keyed) are allowed 
+in the testing area. 
+3. Electronic devices will be monitored according to ACT standards. 
+ 
+Complete and submit as directed by National Advisor 
+ 
+ 
+ 
+Property of Business Professionals of America. 
+May be reproduced only for use in the Business Professionals of America 
+Workplace Skills Assessment Program competition. 
+ 
+ 
+ JAVA PROGRAMMING TECHNICAL TASK
+REGIONAL 2013 
+PAGE 2 of 4 
+ 
+ 
+ 
+Note to Contestant: 
+The rubric for this event grants points for each minor task completed. That being the 
+case, the contestant should strive to complete as many of the rubric items as possible. 
+The contestant should have received a flash drive from the proctor. A text file, 
+Orders.txt, must be stored on the flash when you receive it. 
+Create a folder named with your contestant id number (ex. xx-xxxx-xxxx). 
+Make certain all of the files associated with your program are contained in the folder and 
+that the program will compile/run from the folder. Failure to do so will result in the loss 
+of points under the “Application/Execution” rubric section. 
+ JAVA PROGRAMMING TECHNICAL TASK
+REGIONAL 2013 
+PAGE 3 of 4 
+ 
+ 
+ 
+Order Processing 
+You are to write a program that processes incoming orders. The orders will be read in 
+from a text file (Orders.txt). The processed order data will be written to a text file 
+(OrdersProcessed.txt). A message indicating the order processing has started (Start 
+processing orders.) and finished (Finished processing orders.) will be written to the 
+console. 
+Each line of the input file will contain the order information delimited by a pipe “|” 
+character. The first row in the input order file will be a header record and will be read but 
+ignored. The remaining records, if any, will follow for processing. 
+The input and output file names will be passed into the OrderProcessor constructor. A 
+default constructor will be defined containing hard coded file names. All constructors 
+will attempt to open both files. If either of the files cannot be opened a message will be 
+written to the console and processing will not continue. You are to read each record and 
+parse each order row into the specific order elements. Those elements will then be 
+passed to a method, as individual parameters, which will calculate tax, shipping, and total 
+order cost based on a constant tax rate of 2% and a constant shipping rate of 5%. Each 
+rate is to be declared and initialized as a constant. The tax and shipping amounts are 
+calculated by multiplying the rates by the product of quantity times price. 
+ 
+Example: 
+ Sample input file 
+ORDER_ID|PART_NUM|PRICE|QUANTITY 
+1|111|4.99|3 
+ 
+Sample output 
+Console 
+Start processing orders. 
+Finished processing orders 
+ 
+Output file 
+Order Id: 1 
+Part Num: 111 
+Price: 4.99 
+Quantity: 3 
+Tax: 0.2994 
+Shipping: 0.7485 
+Total: 16.0179 JAVA PROGRAMMING TECHNICAL TASK
+REGIONAL 2013 
+PAGE 4 of 4 
+ 
+ 
+ 
+Your application will be graded on the following criteria: 
+ 
+Application/Execution 
+ Application reads from the Orders.txt file ………………… 
+ 
+_____ 30 pts 
+ Applications correctly writes to the OrdersProcessed.txt file … 
+ Application correctly calculates tax, shipping and total order 
+cost (3@15 ea) ……………………………………………… 
+_____ 40 pts 
+ 
+_____ 45 pts 
+ Application displays Start/Finished messages to the screen … _____ 10 pts 
+ Application reads the entire file ……………………………... _____ 30 pts 
+Tax and Shipping constants are defined ……………………………….. _____ 10 pts 
+OrderProcessor Class is implemented …………………………………. _____ 50 pts 
+OrderProcessor Class has appropriate constructor(s) ………………….. _____ 20 pts 
+OrderProcessor Class has method to open input/output files ………….. _____ 20 pts 
+OrderProcessor Class has method to close input/output files …………. _____ 10 pts 
+OrderProcessor Class has method to read/process input orders ……….. _____ 50 pts 
+OrderProcessor Class has method to calculate tax, shipping, and write 
+orders processed data to the output file ………………………………… 
+ 
+_____ 50 pts 
+I/O error handling is done if files cannot be opened …………………… _____ 10 pts 
+JavaDoc comments are used …………………………………………… _____ 10 pts 
+Code is modularized …………………………………………………… _____ 20 pts 
+Methods are commented ………………………………………………. _____ 10 pts 
+OrderProcessor class is properly commented …………………………. _____ 10 pts 
+Code copied to USB drive and program runs from USB ………………. _____ 10 pts 
+ 
+Total Points: _____ 435 pts
